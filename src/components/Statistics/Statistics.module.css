@@ -1,0 +1,9 @@
+.container-list {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.feedback-list {
+    margin: 10px;
+}

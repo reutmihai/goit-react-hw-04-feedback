@@ -1,0 +1,23 @@
+button {
+    margin: 5px;
+    transition: transform 0.2s ease
+}
+button:active {
+  transform: scale(0.9); /* Micșorează butonul când este apăsat */
+}
+
+.good-btn {
+    background-color: green;
+}
+
+.neutral-btn {
+    background-color: orange;
+}
+
+.bad-btn {
+    background-color: red;
+}
+
+.feedback-options {
+    margin: 20px 0px;
+}
