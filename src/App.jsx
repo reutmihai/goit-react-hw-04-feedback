@@ -7,6 +7,7 @@ const App = () => {
   return (
     <div className='container'>
       <h2>Please leave feedback</h2>
+      <p>Ceva</p>
     </div>
   )
 }
