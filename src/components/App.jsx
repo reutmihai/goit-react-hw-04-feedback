@@ -27,14 +27,15 @@ const App = () => {
         />
       </Section>
       {totalFeedback > 0 ? (
-    <Section title="Statistics" className="container">
-      <Statistics feedback={feedback}
-      total = {totalFeedback}
-      positiveFeedback = {totalPositiveFeedback}
-      />
-      </Section>
+        <Section title="Statistics" className="container">
+          <Statistics
+            feedback={feedback}
+            total={totalFeedback}
+            positiveFeedback={totalPositiveFeedback}
+          />
+        </Section>
       ) : (
-        <Notification message={"Inca nu exista niciun feedback."} />
+        <Notification message={"There is no feedback."} />
       )}
     </div>
   );
